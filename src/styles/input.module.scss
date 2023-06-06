@@ -1,0 +1,40 @@
+.input {
+  border: 1px solid var(--light);
+  background-color: transparent;
+  outline: none;
+  border-radius: 0.4rem;
+  color: var(--light);
+  padding: 0.7rem 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  min-width: 340px;
+
+  &::placeholder {
+    color: var(--light);
+  }
+  
+  &[type="search"] {
+    border: 0;
+    border-bottom: 2px solid var(--light);
+    border-radius: 0;
+  }
+  
+  &[type="submit"] {
+    cursor: pointer;
+    color: var(--light);
+    background-color: #1A5276;
+  }
+  
+&[type="submit"]:hover {
+    background-color: #21618C;
+    color: var(--light);
+    font-weight: 700;
+  }
+}
+
+
+.textarea {
+  height: 10rem;
+  resize: none;
+  color: var(--light);
+}

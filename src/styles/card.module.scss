@@ -1,0 +1,40 @@
+.card {
+  max-width: 30rem;
+  background-color: transparent;
+  border: 0.1rem solid var(--light);
+  border-radius: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--light);
+  overflow: hidden;
+
+  &_header {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+
+  &_footer {
+    border-top: 1px solid var(--light);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.heading {
+  font-weight: 600;
+  color: var(--light);
+}
+.date {
+  opacity: 0.9;
+  font-size: small;
+  color: var(--primary);
+}
+
+.note {
+  font-size: 0.95em;
+}
